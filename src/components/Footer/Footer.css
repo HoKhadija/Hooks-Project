@@ -1,0 +1,12 @@
+.container{
+    display: flex;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.icon{
+    gap: 20px;
+
+}

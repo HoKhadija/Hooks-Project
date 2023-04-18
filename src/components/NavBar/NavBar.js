@@ -1,5 +1,6 @@
 import React from 'react';
 import LogoPic from './Best Movies.png'
+import "./NavBar.css"
 
 function Navbar() {
     return (
@@ -14,7 +15,7 @@ function Navbar() {
 
                 <ul className="navbar__links" style={{ flexWrap: "wrap" }}>
                     <li>
-                        <a href="#">Home</a>
+                        <a href="#hpme">Home</a>
                     </li>
                     <li>
                         <a href="#List">Movies List</a>

@@ -1,0 +1,23 @@
+body {
+    background-color: black;
+    color: white;
+}
+
+@media (max-width: 680px) {
+    form {
+        width: 320px;
+    }
+
+    .navbar__logo {
+        height: 3rem;
+    }
+
+    .navbar {
+        padding: .3rem 1rem;
+    }
+
+    .inputfilter {
+        width: 350px;
+    }
+}
+

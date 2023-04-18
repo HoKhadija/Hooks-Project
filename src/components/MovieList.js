@@ -1,5 +1,5 @@
 import React from 'react';
-import MovieCard from './MovieCard';
+import MovieCard from './MovieCard/MovieCard';
 
 function MovieList({ movies }) {
     return (
@@ -9,7 +9,6 @@ function MovieList({ movies }) {
             {movies?.map(movie => (
                 // This creates a new MovieCard component with props passed down from the parent component
                 <MovieCard
-                    key={movie.id}
                     title={movie.title}
                     description={movie.description}
                     posterURL={movie.posterURL}
