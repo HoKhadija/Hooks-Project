@@ -8,7 +8,7 @@ import AddMovie from './components/AddMovie/AddMovie';
 
 
 
-// Define initialMovies array using localStorage or a default value
+// Define initialMovies array using a default value
 const initialMovies = [
   {title: 'The Wolf of Wall Street', description: 'The Wolf of Wall Street is a memoir by former stockbroker and trader Jordan Belfort, from poverty to the wealth', posterURL: 'https://m.media-amazon.com/images/M/MV5BMjIxMjgxNTk0MF5BMl5BanBnXkFtZTgwNjIyOTg2MDE@._V1_FMjpg_UX1000_.jpg', rating: 5},
   {title: 'The Godfather', description: 'The Godfather II .In this second season there will have two stories, two character lines, two different parallel time lines.', posterURL: 'https://m.media-amazon.com/images/M/MV5BM2MyNjYxNmUtYTAwNi00MTYxLWJmNWYtYzZlODY3ZTk3OTFlXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_.jpg',rating: 4.5},
